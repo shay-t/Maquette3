@@ -1,0 +1,126 @@
+body{
+    background-color: white;
+    color:#404040;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width:960px;
+    margin: auto;
+    padding-left: 10px;
+}
+nav{
+    background-color: #5a5a5a;
+    color: #169fe5;
+    display: inline-block;
+    width: 760px;
+    text-transform: uppercase;
+    margin-top: 83px;
+    text-align: center;
+    border-radius: 3px;
+    margin-bottom: 100px;
+}
+nav li {
+    display: inline-block;
+    text-decoration:none;
+    margin-right: 5%;}
+nav li a {
+    text-shadow: 0px 0px 9px white;
+    color: #169fe5 ;
+    text-decoration: none;
+}
+nav:hover{
+    background-color: white;
+}
+#logo img{
+    display: inline-block;
+    float:left;
+}
+
+
+.titre{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+article{
+    width: 103%;
+}
+article h1{
+    color: rgb(12, 160, 245);
+    font-weight: bold;
+    
+}
+section h2{
+    color:  rgb(12, 160, 245) ;
+    font-style: italic;
+    font-weight: bold;
+}
+#i1{
+    border: 3px double #CDCDCD;
+    margin-bottom: 25px;
+    padding: 3%;
+}
+#i1 h1{
+    color :rgb(12, 160, 245)
+}
+#i2{
+    display: flex;
+    flex-direction: row;
+}
+.element{  
+    border: 3px double #CDCDCD;
+    width: 33.33%;
+    margin-right: 2%;
+    padding: 3%;
+    
+}
+.icons{
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid grey;
+    float:left ;
+    margin-right:3px ;
+    padding: 2%;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #5a5a5a;
+    color: #978787;
+    height: 10vh;
+}
+.pied_page{ 
+    width: 33.33%;
+    margin-right: 2%;
+    text-align: center;
+}
+#intro{
+width: 103%;
+background-color: #E9EAEB;
+height:320px;
+margin-right:0 ;
+}
+#image_description{
+    font-size: larges;
+    display: inline-block;
+    position: relative;
+    bottom: 220px;
+    background-color: rgba(24, 24, 24, 0.5);
+    left: 210px;
+    text-align: center;
+    padding: 12px;
+    width: auto;
+    color: white;
+}
+.button{
+    display: inline-block;
+    width: 90px;
+    padding :7px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-right:auto;
+    background-color:  #169fe5; 
+    text-align: center;
+    border-radius: 5%;
+    color: white;
+    float: right;
+}
